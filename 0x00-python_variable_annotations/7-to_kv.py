@@ -5,4 +5,5 @@
 
 
 def to_kv(k: str, v: float | int) -> tuple[str, float]:
+    """to string and square"""
     return (k, v * v)
