@@ -4,9 +4,9 @@
 """
 
 
-from typing import List, Tuple
+from typing import List, Tuple, Sequence
 
 
-def element_length(lst: float) -> List[Tuple]:
+def element_length(lst: List[Sequence]) -> List[Tuple]:
     """element length"""
     return [(i, len(i)) for i in lst]
