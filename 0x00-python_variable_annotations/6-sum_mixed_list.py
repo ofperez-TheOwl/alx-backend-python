@@ -7,7 +7,7 @@
 from typing import List, Union
 
 
-def sum_mixed_list(input_list: List[Union[float, int]]) -> float:
+def sum_mixed_list(input_list: List[Union[int, float]]) -> float:
     """sum of mixed list"""
     res: float = 0
     for n in input_list:
