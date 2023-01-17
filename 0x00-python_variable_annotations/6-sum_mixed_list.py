@@ -4,10 +4,10 @@
 """
 
 
-from typing import List
+from typing import List, Union
 
 
-def sum_mixed_list(input_list: List[float | int]) -> float:
+def sum_mixed_list(input_list: List[Union[float | int]]) -> float:
     """sum of mixed list"""
     res: float = 0
     for n in input_list:
